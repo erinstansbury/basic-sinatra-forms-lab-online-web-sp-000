@@ -14,7 +14,7 @@ class App < Sinatra::Base
     @pf = params["pf"]
     @center = params["c"]
 
-    erb :team
+    erb :newteam
   end
 
 end
